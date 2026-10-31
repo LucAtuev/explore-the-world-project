@@ -1,0 +1,11 @@
+h1, h2, h3{
+  font-family: "Cormorant Garamond", arial;
+  color: #263C36;
+}
+p, a, div{
+  font-family:"DM Sans", sans-serif;
+  color: #333333;
+}
+body{
+  background-color: #F5F1E8;
+}
