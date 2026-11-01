@@ -2,8 +2,59 @@
 /* Navigation */
 
 .link{
-  color: #263C36;
+  color: rgb(38,60,54); 
   text-decoration: none;
+}
+.navigation-section{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.explore-the-world-title{
+  position: absolute;
+  left: 10%;
+}
+.booking-section{
+  position: absolute;
+  right: 7.5%;
+}
+.linked-elements{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.booking-button{
+  border: none;
+  background-color: rgb(38,60,54);
+  color: rgb(255,255,255);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.booking-button:hover{
+  box-shadow: 3px 3px 15px rgba(181, 142, 99, 0.85);
+}
+.destination-image{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.booking-dropdown-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.booking-link{
+  color: rgb(38,60,54);
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 12px;
+}
+.dropdown{
+  display: flex;
+  flex-direction: column;
 }
 
 /* Hero */
@@ -13,11 +64,15 @@
 /* Explore by Experience — six theme cards */
 
 .theme-card{
-  background-color: #FFFFFF;
+  background-color: rgb(255,255,255);
 }
 
 /* Featured Collection — one theme explored in depth */
 
+
+
 /* About the Journal */
+
+
 
 /* Footer */
