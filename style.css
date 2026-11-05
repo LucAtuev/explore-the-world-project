@@ -25,6 +25,9 @@
   justify-content: space-between;
 }
 .booking-button{
+  position: relative;
+}
+.booking-button-summary{
   border: none;
   background-color: rgb(38,60,54);
   color: rgb(255,255,255);
@@ -33,28 +36,59 @@
   cursor: pointer;
   transition: box-shadow 0.3s;
 }
-.booking-button:hover{
+.booking-button-summary:hover{
   box-shadow: 3px 3px 15px rgba(181, 142, 99, 0.85);
 }
 .destination-image{
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 75px;
   object-fit: cover;
+  margin: 10px 10px;
+  border-radius: 3px;
+  transition: scale 0.3s, box-shadow 0.3s ;
+}
+.destination-image:hover{
+  scale: 1.15;
+  box-shadow: 3px 3px 15px rgba(181, 142, 99, 0.85);
+}
+.destination-title{
+  margin: 10px 10px;
+  font-style: italic;
+  font-weight: 700;
 }
 .booking-dropdown-section{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  position: absolute;
+  top: 100%;
+  right:0;
+  width: 400px;
+  z-index: 10;
+  background-color: white;
+  padding: 8%;
 }
 .booking-link{
-  color: rgb(38,60,54);
+  color: white;
   text-decoration: none;
+  background-color: rgb(38,60,54);
+  margin: 10px 10px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border: solid 2px transparent;
+  transition: color 0.3s, background-color 0.3s, 
+  border 0.3s;
+}
+.booking-link:hover{
+  color: rgb(38,60,54);
   background-color: white;
-  padding: 10px 12px;
+  border: solid 2px rgb(38,60,54);
 }
 .dropdown{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Hero */
