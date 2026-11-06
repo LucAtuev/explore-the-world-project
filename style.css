@@ -67,6 +67,7 @@
   z-index: 10;
   background-color: white;
   padding: 8%;
+  border-radius: 3%;
 }
 .booking-link{
   color: white;
@@ -93,7 +94,9 @@
 
 /* Hero */
 
-
+.background-image-navhero{
+  background-image: url(general-images/background-mountains.jpg);
+}
 
 /* Explore by Experience — six theme cards */
 
