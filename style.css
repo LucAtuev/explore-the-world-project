@@ -110,6 +110,9 @@
   width: 100%;
   height: 1000px;
   background-position:center -275px;
+  z-index: 20;
+  background-attachment: fixed;
+  position: relative;
 }
 .hero-section{
   display: flex;
@@ -130,11 +133,46 @@
 .hero-description{
   font-size: 17.5px;
 }
+.svg-curve{
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
 
 /* Explore by Experience — six theme cards */
 
 .theme-card{
   background-color: rgb(255,255,255);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px rgb(38,60,54) solid;
+}
+.theme-card-title{
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.explore-by-experience-section{
+  display: flex;
+  flex-direction: column;
+}
+.explore-by-experience-title{
+  align-self: center;
+  justify-content: center;
+}
+.six-theme-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.theme-card-img{
+  width: 100px;
 }
 
 /* Featured Collection — one theme explored in depth */
