@@ -173,6 +173,189 @@
 }
 .theme-card-img{
   width: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+.theme-card-img:hover{
+  transform-style: preserve-3d;
+  transform: rotateY('180');
+}
+.theme-card-img-container{
+  position: relative;
+  width: 200px;
+}
+.machu{
+  position: absolute;
+  top: 25px;
+  left: -150px;
+  width: 130px;
+  z-index: 2;
+}
+.athens{
+  position: absolute;
+  top: 90px;
+  left: -130px;
+  width: 140px;
+  z-index: 4;
+}
+.kyoto{
+  position: absolute;
+  top: 15px;
+  width: 120px;
+  height: 175px;
+  left: -30px;
+  z-index: 3;
+}
+.pyramids{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 115px;
+  height: 130px;
+  object-fit: cover;
+  z-index: 1;
+}
+.patagonia{
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  width: 120px;
+  z-index: 4;
+}
+.guatemala{
+  position: absolute;
+  top: 30px;
+  width: 140px;
+  left: -150px;
+  z-index: 4;
+}
+.plitvice{
+  position: absolute;
+  bottom: 25px;
+  left: -110px;
+  width: 130px;
+  z-index: 3;
+}
+.grand-canyon{
+  position: absolute;
+  width: 110px;
+  left: -20px;
+  top: 40px;
+  z-index: 2;
+}
+.oeschinsee{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  width: 140px;
+  z-index: 5;
+}
+.amalfi{
+  width: 130px;
+  position: absolute;
+  top: 10px;
+  left: -140px;
+}
+.cote-dazur{
+  position: absolute;
+  width: 160px;
+  top: 20px;
+  left: -25px;
+}
+.st-barts{
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  width: 150px;
+}
+.chongqing{
+  position: absolute;
+  width: 120px;
+  bottom: 30px;
+  right: 5px;
+}
+.dubai{
+  position: absolute;
+  top: 10px;
+  width: 120px;
+  left: -35px;
+}
+.new-york{
+  position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: -70px;
+}
+.tokyo{
+  position: absolute;
+  top: 20px;
+  width: 110px;
+  left: -140px;
+}
+.bora-bora{
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  right: 20px;
+}
+.maldives{
+  position: absolute;
+  width: 160px;
+  bottom: 10px;
+}
+.palau{
+  position: absolute;
+  left: -120px;
+  height: 100px;
+  object-fit: cover;
+  top: 10px;
+}
+.zanzibar{
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 110px;
+}
+.seychelles{
+  position: absolute;
+  bottom: 25px;
+  left: -150px;
+  width: 130px;
+}
+.barcelona{
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  width: 120px;
+}
+.florence{
+  position: absolute;
+  width: 140px;
+  top: 30px;
+  left: -20px;
+}
+.marrakech{
+  position: absolute;
+  bottom: 10px;
+  left: -120px;
+  width: 120px;
+  z-index: 2;
+}
+.stockholm{
+  position: absolute;
+  width: 125px;
+  top: 10px;
+  left: -140px;
+}
+.theme-card-text{
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.theme-card-description{
+  width: 320px;
 }
 
 /* Featured Collection — one theme explored in depth */
